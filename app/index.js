@@ -12,7 +12,7 @@ module.exports = generators.Base.extend({
         const pkg = require('../package.json');
         const notifier = updateNotifier({pkg});
         notifier.notify();
-        this.log('I am a full stack react, redux & express generator.');
+        this.log('I am a single page app and express generator.');
     },
     prompting: function() {
         var done = this.async();

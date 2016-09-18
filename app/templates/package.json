@@ -1,7 +1,7 @@
 {
     "name": "<%= title.replace(' ','-') %>",
-    "version": "1.0.0",
-    "description": "Project generated with cairn",
+    "version": "0.0.1",
+    "description": "Your project",
     "main": "app.js",
     "engines": {
         "node": "6.3.0"
