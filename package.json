@@ -1,14 +1,14 @@
 {
-    "name": "generator-cairn",
-    "version": "1.2.7",
-    "description": "A full stack of rocks",
+    "name": "generator-pebble",
+    "version": "0.0.1",
+    "description": "Client side only ES6 generator",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com:dazld/generator-cairn.git"
+        "url": "git+ssh://git@github.com:dazld/generator-pebble.git"
     },
     "author": "Dan Peddle <dan@flarework.com>",
     "license": "MIT",
