@@ -1,8 +1,8 @@
-# Pebble
+# MC
 
 ## What's this?
 
-This is a yeoman generator for making express & js applications. It's the little sister of a fully universal / isomorphic generator which you can find here: https://github.com/dazld/generator-cairn - if you're looking for server rendered react, redux etc, that would be a better place to look. 
+This is a yeoman generator for making express & js applications. It's the little sister of a fully universal / isomorphic generator which you can find here: https://github.com/dazld/generator-cairn - if you're looking for server rendered react, redux etc, that would be a better place to look.
 
 There is a full suite of watching, livereloading, compilation and related gulp tasks. The express server renders html as you would expect, and they can be found in the `server/views` folder.
 
@@ -23,15 +23,15 @@ It is a work in progress, and pull requests are welcome as long as they remain i
 
 Install Yeoman - `npm install -g yo`.
 
-Install generator globally: `npm install -g generator-pebble`
+Install generator globally: `npm install -g generator-mc`
 
-Check everything is working: `yo --help` - should see a list of generators, and `pebble` in there too.
+Check everything is working: `yo --help` - should see a list of generators, and `mc` in there too.
 
 ## Usage
 
 Make a new directory, cd into it.
 
-`yo pebble` - give the project a name (it uses the directory name as default).
+`yo mc` - give the project a name (it uses the directory name as default).
 
 Yeoman will perform `git init` and `npm install` for you - this takes a while, so be prepared for a short wait.
 
@@ -52,7 +52,7 @@ Sockets on iOS with a self signed cert - https://blog.httpwatch.com/2013/12/12/f
 
 ## Updating
 
-`npm install -g generator-pebble`
+`npm install -g generator-mc`
 
 
 # Changelog
