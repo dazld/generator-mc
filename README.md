@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/generator-mc.svg)](https://badge.fury.io/js/generator-mc)
+
 # MC
 
 ## What's this?
@@ -47,8 +49,7 @@ Sockets on iOS with a self signed cert - https://blog.httpwatch.com/2013/12/12/f
 ## Todo
 
 - Document other gulp tasks
-- Document how config gets propagated from server render to frontend
-- Put skeleton react app in place
+- strip even more cruft out (express can probably go too)
 
 ## Updating
 
@@ -57,8 +58,6 @@ Sockets on iOS with a self signed cert - https://blog.httpwatch.com/2013/12/12/f
 
 # Changelog
 
-## 1.2.7
+## 1.0.0
 
-- change from `path.join` to `url.resolve` in asset-path helper (windows support)
-- Moved `snakeoil-certs` to production dependencies
-- added default Node engine (6.3.0)
+- forked from old 1.x branch code on cairn for mini generator, without all the server side stuff

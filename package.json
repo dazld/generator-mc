@@ -1,6 +1,6 @@
 {
     "name": "generator-mc",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Express & ES6 single page app generator",
     "main": "index.js",
     "scripts": {
